@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Counter from './components/Counter';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <Counter />
+    </main>
   );
 }
+
+// const input = ' Hey ';
+
+// const trim = (str) => str.trim();
+// const wrapInDiv = (str) => `<div> ${str} </div>`;
+// const toLowerCase = (str) => str.toLowerCase();
+
+// const result = wrapInDiv(toLowerCase(trim(input)));
+
+// console.log(result);
 
 export default App;
